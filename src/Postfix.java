@@ -13,7 +13,7 @@ the result is below
 expr -> expr rest
 rest -> + term {print('+')} rest | - term {print('-')} rest | e
 
- */
+*/
 class Parser {
     static int lookahead;
 
